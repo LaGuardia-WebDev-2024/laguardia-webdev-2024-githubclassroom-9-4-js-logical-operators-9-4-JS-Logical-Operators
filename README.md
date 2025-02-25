@@ -11,7 +11,12 @@
 Buttons often change color when they're pressed, so that the user realizes they've pressed something. In this challenge, you'll change the code so that this button turns red when you press it.
 <br><br>
 For this first step, add an if that colors the button red when you press the mouse anywhere on the canvas.
-<br>
+<br><br>
+*Hint:*
+  <br> 
+`if(mousePressed){`<br>`
+......`<br>`
+}`
 
 ### Step #2 - But WHERE is the mouse pressed? <br>
 
@@ -19,6 +24,11 @@ Did you notice that the rectangle changes its color when you click on the bottom
 <br><br>
 You'll fix that now - change the if condition so that the color of the button changes when the mouse is both pressed and on the upper half of the canvas.
 <br><br>
+*Hint:*
+  <br> 
+`if(______ && _______){`<br>`
+......`<br>`
+}`
 
 ### Step #3 - One More Time <br>
 
